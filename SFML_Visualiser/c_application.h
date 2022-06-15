@@ -6,8 +6,8 @@ class ArrayElementBar;
 class c_application : public sf::Drawable, public sf::Transformable
 {
 public:
-	const unsigned int ARRAY_SIZE = 1000;
-	const unsigned int DW_DISPRESION = 100;
+	const unsigned int ARRAY_SIZE = 300;
+	const unsigned int DW_DISPRESION = 500;
 	const unsigned short STEP_DELAY_MS = 1;
 private:
 	float dwAligment = 0;
